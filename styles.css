@@ -15,7 +15,10 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 150vh;
+  max-height: 100vh;
+  position: sticky;
+  top: 0px;
+  /* height: 150vh; */
   width: 300px;
   /* width: 40%; */
   /* border-right: 1px solid rgb(206, 197, 197); */
@@ -57,6 +60,9 @@ body {
   padding: 10px;
   border-radius: 20px;
   text-align: center;
+}
+.left .logo-container .tweet i {
+  display: none;
 }
 .left .name-container {
   /* background: lightcoral; */
@@ -266,4 +272,36 @@ body {
 .right .moving-div .what-is-happening .news {
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1280px) {
+  .left,
+  .left .logo-container,
+  .left .name-container {
+    width: 150px;
+  }
+
+  /* .left .logo-container {
+    width: 10%;
+  } */
+  .left .text-div,
+  .left .tweet h5 {
+    display: none;
+  }
+  .left .name-div,
+  .left .more-div {
+    display: none;
+  }
+  .left .logo-container .tweet i {
+    display: block;
+  }
+  .left .logo-container .tweet {
+    width: 50px;
+    margin: auto;
+    height: 50px;
+  }
+  .left .name-container {
+    display: flex;
+    justify-content: center;
+  }
 }
