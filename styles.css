@@ -204,3 +204,59 @@ body {
 .middle .tweet-img p {
   padding: 10px;
 }
+
+.right {
+  background: lightblue;
+  width: 300px;
+}
+.right .search-bar {
+  position: relative;
+  display: flex;
+}
+.right .search-bar input {
+  padding: 5px 40px;
+  flex: 1;
+  height: 40px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background: rgb(235, 235, 235);
+}
+.right .search-bar i {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+.right .moving-div > div {
+  margin-top: 10px;
+}
+
+.right .moving-div .what-is-happening {
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 5px;
+}
+
+.right .title-div,
+.right .news {
+  padding: 1px 10px;
+}
+
+.right .moving-div .what-is-happening .news {
+  border-top: 1px solid #ebe5e5;
+}
+
+.right .moving-div .what-is-happening img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.right .moving-div .what-is-happening .news {
+  display: flex;
+  justify-content: space-between;
+}
