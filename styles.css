@@ -7,15 +7,17 @@
 }
 body {
   display: flex;
-  padding: 0px 10px;
+  justify-content: center;
+  /* padding: 0px 10%; */
 }
 
 .left {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 90vh;
-  width: 200px;
+  height: 150vh;
+  width: 300px;
+  /* width: 40%; */
   /* border-right: 1px solid rgb(206, 197, 197); */
   padding: 0px 20px;
   /* background: lightgreen; */
@@ -23,26 +25,29 @@ body {
 }
 .left .logo-container {
   /* background: lightblue; */
+  width: 251px;
 }
 
 .left .logo-container .p {
   margin: 20px 0px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
+  font-size: 22px;
 }
 .left .logo-container > div > h5 {
   text-align: left;
 }
 
 .left .logo-container .text-div h5 {
-  font-size: 20px;
+  font-size: 22px;
 }
 .left .logo-container .twitter-div {
   opacity: 0;
 }
 .left .logo-container .twitter i {
   color: rgb(0, 162, 255);
-  font-size: 30px;
+  font-size: 40px;
 }
 .left .logo-container .tweet {
   display: flex;
@@ -58,6 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 251px;
 }
 
 .left .name-container .img-div {
@@ -76,8 +82,9 @@ body {
 /* for middle */
 
 .middle {
-  /* background: lightblue; */
-  width: 400px;
+  /* background: lightcoral; */
+  width: 600px;
+
   border-right: 1px solid #ebe5e5;
   border-left: 1px solid #ebe5e5;
 }
@@ -206,8 +213,8 @@ body {
 }
 
 .right {
-  background: lightblue;
-  width: 300px;
+  /* background: lightblue; */
+  width: 358px;
 }
 .right .search-bar {
   position: relative;
