@@ -16,7 +16,7 @@ body {
   justify-content: space-between;
   height: 90vh;
   width: 200px;
-  border-right: 1px solid rgb(206, 197, 197);
+  /* border-right: 1px solid rgb(206, 197, 197); */
   padding: 0px 20px;
   /* background: lightgreen; */
   /* border: 1px solid black; */
@@ -78,6 +78,8 @@ body {
 .middle {
   /* background: lightblue; */
   width: 400px;
+  border-right: 1px solid #ebe5e5;
+  border-left: 1px solid #ebe5e5;
 }
 .middle .home-div {
   display: flex;
@@ -141,5 +143,64 @@ body {
 .middle .textarea-div .textarea-textarea-div .tweet-div .tweet-text {
   background: rgb(69, 195, 245);
   border-radius: 20px;
+  padding: 10px;
+}
+.middle .content-div .contents .content-div-profile-img {
+  padding: 0px 10px;
+}
+
+.middle .content-div .contents .content-div-profile-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.middle .content-div {
+  /* background: lightgreen; */
+  /* remove this after checking */
+  /* height: 100vh; */
+}
+
+.middle .content-div .contents {
+  /* background: blueviolet; */
+  display: flex;
+  padding: 5px 10px 5px 0px;
+  border: 1px solid #ebe5e5;
+  border-left: 0px;
+  border-right: 0px;
+}
+.middle .content-div .contents .tweet-container-div {
+  flex: 1;
+  /* background: red; */
+}
+.middle .content-div .contents .tweet-container-div .tweet-container-name-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle .tweet-container-name-div .name-username {
+  display: flex;
+  align-items: center;
+}
+
+.middle .tweet-container-name-div .name-username h6 {
+  margin-left: 2px;
+}
+.middle .tweet-container-content-div {
+  margin: 10px 4px;
+}
+.middle .tweet-container-div .tweet-container-icons-div i {
+  margin-right: 40px;
+}
+.middle .tweet-img {
+  margin: 10px 0px;
+  border-radius: 20px;
+  border: 1px solid #ebe5e5;
+  overflow: hidden;
+}
+.middle .tweet-img img {
+  width: 100%;
+}
+.middle .tweet-img p {
   padding: 10px;
 }
