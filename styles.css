@@ -1,9 +1,12 @@
+/* twitter icons color : #1da1f2 */
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 body {
+  display: flex;
   padding: 0px 10px;
 }
 
@@ -63,9 +66,80 @@ body {
 
 .left .name-container .img-div img {
   width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
 .left .logo-container .text-div {
   width: 100px;
+}
+/* for middle */
+
+.middle {
+  /* background: lightblue; */
+  width: 400px;
+}
+.middle .home-div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebe5e5;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.middle .textarea-div {
+  display: flex;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ebe5e5;
+  /* background: lightgoldenrodyellow; */
+}
+.middle .textarea-div i,
+.middle .home-div i {
+  color: #1da1f2;
+}
+.middle .textarea-div .textarea-textarea-div {
+  flex: 1;
+}
+.middle .textarea-div .textarea-img-div {
+  padding: 0px 10px;
+}
+
+.middle .textarea-div .textarea-img-div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.middle .textarea-div .textarea-textarea-div .typing-div {
+  /* background: lightcoral; */
+}
+
+.middle .textarea-div .textarea-textarea-div .typing-div textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #ebe5e5;
+  padding: 15px 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+.middle .textarea-div .textarea-textarea-div .tweet-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.middle .textarea-div .textarea-textarea-div .tweet-div h6 {
+  font-size: 20px;
+}
+
+.middle .textarea-div .textarea-textarea-div .tweet-div i {
+  margin-right: 10px;
+}
+.middle .textarea-div .textarea-textarea-div .tweet-div .tweet-text {
+  background: rgb(69, 195, 245);
+  border-radius: 20px;
+  padding: 10px;
 }
