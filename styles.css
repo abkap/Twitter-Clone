@@ -13,6 +13,8 @@ body {
   justify-content: space-between;
   height: 90vh;
   width: 200px;
+  border-right: 1px solid rgb(206, 197, 197);
+  padding: 0px 20px;
   /* background: lightgreen; */
   /* border: 1px solid black; */
 }
@@ -29,7 +31,15 @@ body {
   text-align: left;
 }
 
-.left .logo-container .text-div {
+.left .logo-container .text-div h5 {
+  font-size: 20px;
+}
+.left .logo-container .twitter-div {
+  opacity: 0;
+}
+.left .logo-container .twitter i {
+  color: rgb(0, 162, 255);
+  font-size: 30px;
 }
 .left .logo-container .tweet {
   display: flex;
@@ -37,7 +47,7 @@ body {
   /* border: 1px solid blue; */
   background: rgb(75, 181, 247);
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 20px;
   text-align: center;
 }
 .left .name-container {
