@@ -355,7 +355,7 @@ h6 {
     display: block;
   }
   .left {
-    transition: 0.5s ease;
+    transition: 0.1s ease;
     position: fixed;
     background: white;
     border-top: 1px solid rgb(228, 226, 226);
