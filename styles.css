@@ -9,10 +9,13 @@
 body {
   display: flex;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 
   /* padding: 0px 10%; */
 }
-
+h6 {
+  color: #7d8e9d;
+}
 .left {
   display: flex;
   flex-direction: column;
@@ -125,7 +128,7 @@ body {
   flex: 1;
 }
 .middle .textarea-div .textarea-img-div {
-  padding: 0px 10px;
+  padding: 0px 5px 0px 0px;
 }
 
 .middle .textarea-div .textarea-img-div img {
@@ -177,11 +180,10 @@ body {
   border-radius: 50%;
 }
 
-/* .middle .content-div {
-  background: lightgreen; */
-/* remove this after checking */
-/* height: 100vh;
-} */
+.middle .content-div {
+  /* background: lightgreen; */
+  margin-top: 10px;
+}
 
 .middle .content-div .contents {
   /* background: blueviolet; */
@@ -206,7 +208,11 @@ body {
 }
 
 .middle .tweet-container-name-div .name-username h6 {
-  margin-left: 2px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.middle .tweet-container-name-div .name-username h5 {
+  font-size: 15px;
 }
 .middle .tweet-container-content-div {
   margin: 10px 4px;
@@ -232,6 +238,7 @@ body {
   width: 358px;
 }
 .right .search-bar {
+  margin: 0px 10px;
   position: relative;
   display: flex;
 }
@@ -389,5 +396,9 @@ body {
   }
   .middle .textarea-div {
     display: none;
+  }
+  .middle .content-div {
+    /* background: lightgreen; */
+    margin-top: 0px;
   }
 }

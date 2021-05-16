@@ -1,4 +1,3 @@
 # Twitter-Clone
 
-**Site will be published soon on github** \
-__[Click here](https://fervent-aryabhata-181515.netlify.app/) to view the site__
+**[Click here](https://abkap.github.io/Twitter-Clone/) to view the site**
