@@ -133,9 +133,9 @@ body {
   height: 50px;
   border-radius: 50%;
 }
-.middle .textarea-div .textarea-textarea-div .typing-div {
-  /* background: lightcoral; */
-}
+/* .middle .textarea-div .textarea-textarea-div .typing-div {
+  background: lightcoral;
+} */
 
 .middle .textarea-div .textarea-textarea-div .typing-div textarea {
   height: 100px;
@@ -177,11 +177,11 @@ body {
   border-radius: 50%;
 }
 
-.middle .content-div {
-  /* background: lightgreen; */
-  /* remove this after checking */
-  /* height: 100vh; */
-}
+/* .middle .content-div {
+  background: lightgreen; */
+/* remove this after checking */
+/* height: 100vh;
+} */
 
 .middle .content-div .contents {
   /* background: blueviolet; */
