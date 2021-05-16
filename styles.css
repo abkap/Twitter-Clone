@@ -1,0 +1,393 @@
+/* twitter icons color : #1da1f2 */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+
+  /* padding: 0px 10%; */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: 100vh;
+  position: sticky;
+  top: 0px;
+  /* height: 150vh; */
+  width: 300px;
+  /* width: 40%; */
+  /* border-right: 1px solid rgb(206, 197, 197); */
+  padding: 0px 20px;
+  /* background: lightgreen; */
+  /* border: 1px solid black; */
+}
+.left .logo-container {
+  /* background: lightblue; */
+  width: 251px;
+}
+
+.left .logo-container .p {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 22px;
+}
+.left .logo-container > div > h5 {
+  text-align: left;
+}
+
+.left .logo-container .text-div h5 {
+  font-size: 22px;
+}
+.left .logo-container .twitter-div {
+  opacity: 0;
+}
+.left .logo-container .twitter i {
+  color: rgb(0, 162, 255);
+  font-size: 40px;
+}
+.left .logo-container .tweet {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid blue; */
+  background: rgb(75, 181, 247);
+  padding: 10px;
+  border-radius: 20px;
+  text-align: center;
+}
+.left .logo-container .tweet i {
+  display: none;
+}
+.left .name-container {
+  /* background: lightcoral; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 251px;
+}
+
+.left .name-container .img-div {
+  width: 50px;
+}
+
+.left .name-container .img-div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.left .logo-container .text-div {
+  width: 100px;
+}
+.left .logo-container .home i {
+  color: #1da1f2;
+}
+/* for middle */
+
+.middle {
+  /* background: lightcoral; */
+  width: 600px;
+
+  border-right: 1px solid #ebe5e5;
+  border-left: 1px solid #ebe5e5;
+}
+
+.middle .feather-middle {
+  display: none;
+}
+.middle .home-div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ebe5e5;
+  padding: 10px 15px;
+  font-size: 20px;
+}
+
+.middle .textarea-div {
+  display: flex;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ebe5e5;
+  /* background: lightgoldenrodyellow; */
+}
+.middle .textarea-div i,
+.middle .home-div i {
+  color: #1da1f2;
+}
+.middle .textarea-div .textarea-textarea-div {
+  flex: 1;
+}
+.middle .textarea-div .textarea-img-div {
+  padding: 0px 10px;
+}
+
+.middle .textarea-div .textarea-img-div img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.middle .textarea-div .textarea-textarea-div .typing-div {
+  /* background: lightcoral; */
+}
+
+.middle .textarea-div .textarea-textarea-div .typing-div textarea {
+  height: 100px;
+  width: 100%;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #ebe5e5;
+  padding: 15px 5px;
+  outline: none;
+  font-size: 20px;
+}
+
+.middle .textarea-div .textarea-textarea-div .tweet-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.middle .textarea-div .textarea-textarea-div .tweet-div h6 {
+  font-size: 20px;
+}
+
+.middle .textarea-div .textarea-textarea-div .tweet-div i {
+  margin-right: 10px;
+}
+.middle .textarea-div .textarea-textarea-div .tweet-div .tweet-text {
+  background: rgb(69, 195, 245);
+  border-radius: 20px;
+  padding: 10px;
+}
+.middle .content-div .contents .content-div-profile-img {
+  padding: 0px 10px;
+}
+
+.middle .content-div .contents .content-div-profile-img img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.middle .content-div {
+  /* background: lightgreen; */
+  /* remove this after checking */
+  /* height: 100vh; */
+}
+
+.middle .content-div .contents {
+  /* background: blueviolet; */
+  display: flex;
+  padding: 5px 10px 5px 0px;
+  border: 1px solid #ebe5e5;
+  border-left: 0px;
+  border-right: 0px;
+}
+.middle .content-div .contents .tweet-container-div {
+  flex: 1;
+  /* background: red; */
+}
+.middle .content-div .contents .tweet-container-div .tweet-container-name-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle .tweet-container-name-div .name-username {
+  display: flex;
+  align-items: center;
+}
+
+.middle .tweet-container-name-div .name-username h6 {
+  margin-left: 2px;
+}
+.middle .tweet-container-content-div {
+  margin: 10px 4px;
+}
+.middle .tweet-container-div .tweet-container-icons-div i {
+  margin-right: 40px;
+}
+.middle .tweet-img {
+  margin: 10px 0px;
+  border-radius: 20px;
+  border: 1px solid #ebe5e5;
+  overflow: hidden;
+}
+.middle .tweet-img img {
+  width: 100%;
+}
+.middle .tweet-img p {
+  padding: 10px;
+}
+
+.right {
+  /* background: lightblue; */
+  width: 358px;
+}
+.right .search-bar {
+  position: relative;
+  display: flex;
+}
+.right .search-bar input {
+  padding: 5px 40px;
+  flex: 1;
+  height: 40px;
+  margin-top: 5px;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  background: rgb(235, 235, 235);
+}
+.right .search-bar i {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+
+.right .moving-div > div {
+  margin-top: 10px;
+}
+
+.right .moving-div .what-is-happening {
+  background: #f1f1f1;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px 5px;
+}
+
+.right .title-div,
+.right .news {
+  padding: 1px 10px;
+}
+
+.right .moving-div .what-is-happening .news {
+  border-top: 1px solid #ebe5e5;
+}
+
+.right .moving-div .what-is-happening img {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+}
+
+.right .moving-div .what-is-happening .news {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1280px) {
+  .left,
+  .left .logo-container,
+  .left .name-container {
+    width: 150px;
+  }
+
+  /* .left .logo-container {
+    width: 10%;
+  } */
+  .left .text-div,
+  .left .tweet h5 {
+    display: none;
+  }
+  .left .name-div,
+  .left .more-div {
+    display: none;
+  }
+  .left .logo-container .tweet i {
+    display: block;
+  }
+  .left .logo-container .tweet {
+    width: 50px;
+    margin: auto;
+    height: 50px;
+  }
+  .left .name-container {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .right {
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .middle {
+    width: 500px;
+  }
+}
+
+@media (max-width: 550px), (max-height: 550px) {
+  body {
+    margin-bottom: 55px;
+  }
+  .left .logo-container .no-navbar,
+  .left .logo-container .tweet,
+  .left .name-container {
+    display: none;
+  }
+
+  .left .logo-container .p i {
+    color: #65798b;
+  }
+  .left .logo-container .home i {
+    color: #1da1f2;
+  }
+
+  .left .logo-container .navbar > i {
+    display: block;
+  }
+  .left {
+    position: fixed;
+    background: white;
+    border-top: 1px solid rgb(228, 226, 226);
+    height: 50px;
+    width: 100%;
+    margin-top: auto;
+    bottom: 0px;
+  }
+
+  .left .logo-container {
+    /* background: lightgreen;
+    border: 1px solid blue; */
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    justify-content: space-around;
+  }
+  .left .logo-container .navbar {
+    width: 30px;
+    /* background: red; */
+  }
+  .middle .feather-middle i {
+    font-size: 20px;
+    color: white;
+  }
+  .middle .feather-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    background: #1da1f2;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+  }
+  .middle .textarea-div {
+    display: none;
+  }
+}
