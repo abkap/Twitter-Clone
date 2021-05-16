@@ -9,7 +9,6 @@
 body {
   display: flex;
   justify-content: center;
-  margin-bottom: 55px;
 
   /* padding: 0px 10%; */
 }
@@ -88,6 +87,9 @@ body {
 .left .logo-container .text-div {
   width: 100px;
 }
+.left .logo-container .home i {
+  color: #1da1f2;
+}
 /* for middle */
 
 .middle {
@@ -96,6 +98,10 @@ body {
 
   border-right: 1px solid #ebe5e5;
   border-left: 1px solid #ebe5e5;
+}
+
+.middle .feather-middle {
+  display: none;
 }
 .middle .home-div {
   display: flex;
@@ -322,20 +328,22 @@ body {
 }
 
 @media (max-width: 550px), (max-height: 550px) {
-  /* body {
-    display: block;
-  } */
+  body {
+    margin-bottom: 55px;
+  }
   .left .logo-container .no-navbar,
   .left .logo-container .tweet,
   .left .name-container {
     display: none;
   }
+
   .left .logo-container .p i {
     color: #65798b;
   }
   .left .logo-container .home i {
     color: #1da1f2;
   }
+
   .left .logo-container .navbar > i {
     display: block;
   }
@@ -361,5 +369,25 @@ body {
   .left .logo-container .navbar {
     width: 30px;
     /* background: red; */
+  }
+  .middle .feather-middle i {
+    font-size: 20px;
+    color: white;
+  }
+  .middle .feather-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+    background: #1da1f2;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+  }
+  .middle .textarea-div {
+    display: none;
   }
 }
